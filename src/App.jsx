@@ -15,6 +15,13 @@ function App() {
         <Route path="/works" element={<Works />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <a
+        href="https://wa.me/628XXXXXXXXXX"
+        target="_blank"
+        className="fixed bottom-6 right-6 bg-green-500 text-white px-4 py-3 rounded-full shadow-lg"
+      >
+        WA
+      </a>
     </Router>
   );
 }
